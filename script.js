@@ -81,7 +81,6 @@ function loadEmployees() {
             <td>${element.age}</td>
             <td>${element.salary}</td>
             <td>
-                <button class="btn btn-success" id="change">Change</button>
                 <button class="btn btn-danger" id="delete">Delete</button>
             </td>
         </tr>`;
@@ -174,7 +173,6 @@ function addEmployeeToUI(employee) {
         <td>${employee.age}</td>
         <td>${employee.salary}</td>
         <td>
-            <button class="btn btn-success" id="change">Change</button>
             <button class="btn btn-danger" id="delete">Delete</button>
         </td>
     </tr>`;
